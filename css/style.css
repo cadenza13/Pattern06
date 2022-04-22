@@ -242,13 +242,13 @@ main > .business > p{
 
 /* ------------------- */
 
-.title{
+.capture{
   position: relative;
   width: 80%;
   margin: 48px auto 36px;
 }
 
-.title > h1{
+.capture > h1{
   position: relative;
   font-size: 48px;
   font-weight: bold;
@@ -256,7 +256,7 @@ main > .business > p{
   z-index: 1;
 }
 
-.title > span{
+.capture > span{
   display: block;
   position: absolute;
   top: calc(50% - 8px);
@@ -300,12 +300,12 @@ section:nth-of-type(2) > img{
   margin-right: 36px;
 }
 
-section > .around > h1{
+section > .version > h1{
   font-size: 24px;
   font-weight: bold;
 }
 
-section > .around > p{
+section > .version > p{
   margin-top: 24px;
   line-height: 2;
 }
@@ -408,11 +408,15 @@ footer > small{
     margin: 0;
   }
 
-  section > .around{
+  section:nth-of-type(2) > img{
+    margin-right: 0;
+  }
+
+  section > .version{
     margin-top: 24px;
   }
 
-  section > .around > p{
+  section > .version > p{
     text-align: left;
   }
 }
